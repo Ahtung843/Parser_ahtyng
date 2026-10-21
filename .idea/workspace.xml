@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a144d0-1a24-48c4-8852-fff46b830b80" name="Changes" comment="new">
-      <change afterPath="$PROJECT_DIR$/core/engine.py" afterDir="false" />
+    <list default="true" id="b0a144d0-1a24-48c4-8852-fff46b830b80" name="Changes" comment="Сделал базу котоаря перадает в engine данные с GUI.">
+      <change afterPath="$PROJECT_DIR$/core/beautifullsoup_core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/playwrigt_core.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/engine.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flets.py" beforeDir="false" afterPath="$PROJECT_DIR$/flets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,21 +26,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Ahtung843"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ahtung843&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Ahtung843/Parser_ahtyng.git",
-    "accountId": "d025ffdf-b648-443a-9272-f845c1a408bb"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Ahtung843/Parser_ahtyng.git&quot;,
+    &quot;accountId&quot;: &quot;d025ffdf-b648-443a-9272-f845c1a408bb&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="3KxNi58Ps33RJyyiL0tnH5DYMl6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,6 +50,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.engine.executor": "Run",
+    "Python.flets.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
@@ -78,7 +80,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792495560437</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Сделал базу котоаря перадает в engine данные с GUI.">
+      <option name="closed" value="true" />
+      <created>1792497059933</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1792497059933</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="Сделал базу котоаря перадает в engine данные с GUI." />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал базу котоаря перадает в engine данные с GUI." />
   </component>
 </project>

@@ -1,8 +1,16 @@
-def run(url: str, engine: str):
+def run(url: str, engine: str, selectors: list):
     print(f"URL: {url}")
     print(f"ENGINE: {engine}")
+    print(f"СПИСОК КЛАССОВ В ЯДРО: {selectors}")
 
     if "Playwright" in engine:
-        print("Playwright")
+        from core.playwrigt_core import playwrig
+        # Для плейрайта пока можно оставить строку, если не переписал его внутренности
+        final_selector = ", ".join(selectors)
+        playwrig(url, final_selector)
+
     elif "BeautifulSoup" in engine:
-        print("BeautifulSoup")
+        from core.beautifullsoup_core import beautifull
+        # Передаем ЧИСТЫЙ СПИСОК (массив) прямо в ядро супа!
+        beautifull(url, selectors)
+
