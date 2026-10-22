@@ -1,16 +1,15 @@
-def run(url: str, engine: str, selectors: list):
-    print(f"URL: {url}")
-    print(f"ENGINE: {engine}")
-    print(f"СПИСОК КЛАССОВ В ЯДРО: {selectors}")
+# Принимаем новые параметры file_format и file_name
+def run(url: str, engine: str, selectors: list, file_format: str, file_name: str):
+    print(f"URL: {url} | ENGINE: {engine}")
+    print(f"ФОРМАТ: {file_format} | ИМЯ ФАЙЛА: {file_name}")
 
     if "Playwright" in engine:
         from core.playwrigt_core import playwrig
-        # Для плейрайта пока можно оставить строку, если не переписал его внутренности
         final_selector = ", ".join(selectors)
+        # Сюда тоже можно будет докинуть, когда обновим playwrig
         playwrig(url, final_selector)
 
     elif "BeautifulSoup" in engine:
         from core.beautifullsoup_core import beautifull
-        # Передаем ЧИСТЫЙ СПИСОК (массив) прямо в ядро супа!
-        beautifull(url, selectors)
-
+        # Передаем всё в ядро BeautifulSoup!
+        beautifull(url, selectors, file_format, file_name)

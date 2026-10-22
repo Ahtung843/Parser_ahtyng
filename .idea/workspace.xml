@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a144d0-1a24-48c4-8852-fff46b830b80" name="Changes" comment="Сделал базу котоаря перадает в engine данные с GUI.">
-      <change afterPath="$PROJECT_DIR$/core/beautifullsoup_core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/playwrigt_core.py" afterDir="false" />
+    <list default="true" id="b0a144d0-1a24-48c4-8852-fff46b830b80" name="Changes" comment="feat: динамические поля селекторов во Flet и исправление перемешивания данных&#10;&#10;- Переписан интерфейс добавления классов на ListView под Flet 1.0.4+&#10;- Реализовано динамическое создание полей ввода по кнопке &quot;+&quot;&#10;- В ядро BeautifulSoup добавлен парсинг раздельных списков классов через zip()&#10;- Устранена проблема перемешивания названий и цен при парсинге">
+      <change afterPath="$PROJECT_DIR$/core/files_core.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/beautifullsoup_core.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/beautifullsoup_core.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/engine.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flets.py" beforeDir="false" afterPath="$PROJECT_DIR$/flets.py" afterDir="false" />
     </list>
@@ -88,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792497059933</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: динамические поля селекторов во Flet и исправление перемешивания данных&#10;&#10;- Переписан интерфейс добавления классов на ListView под Flet 1.0.4+&#10;- Реализовано динамическое создание полей ввода по кнопке &quot;+&quot;&#10;- В ядро BeautifulSoup добавлен парсинг раздельных списков классов через zip()&#10;- Устранена проблема перемешивания названий и цен при парсинге">
+      <option name="closed" value="true" />
+      <created>1792569655728</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1792569655728</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +113,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new" />
     <MESSAGE value="Сделал базу котоаря перадает в engine данные с GUI." />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал базу котоаря перадает в engine данные с GUI." />
+    <MESSAGE value="feat: динамические поля селекторов во Flet и исправление перемешивания данных&#10;&#10;- Переписан интерфейс добавления классов на ListView под Flet 1.0.4+&#10;- Реализовано динамическое создание полей ввода по кнопке &quot;+&quot;&#10;- В ядро BeautifulSoup добавлен парсинг раздельных списков классов через zip()&#10;- Устранена проблема перемешивания названий и цен при парсинге" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: динамические поля селекторов во Flet и исправление перемешивания данных&#10;&#10;- Переписан интерфейс добавления классов на ListView под Flet 1.0.4+&#10;- Реализовано динамическое создание полей ввода по кнопке &quot;+&quot;&#10;- В ядро BeautifulSoup добавлен парсинг раздельных списков классов через zip()&#10;- Устранена проблема перемешивания названий и цен при парсинге" />
   </component>
 </project>
